@@ -4,7 +4,7 @@ from steamship import Steamship
 from steamship.base import TaskState
 
 
-instance = Steamship.use("audio-description", "new", config={})
+instance = Steamship.use("audio-description", config={})
 
 st.title('Post Generator ❤️')
 st.text("")
