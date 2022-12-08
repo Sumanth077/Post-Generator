@@ -1,6 +1,5 @@
 import streamlit as st
 import time
-from annotated_text import annotated_text
 from steamship import Steamship
 from steamship.base import TaskState
 
@@ -48,5 +47,5 @@ def generate(link):
 response = generate(url)
 
 
-output = annotated_text(response['file'])
+output = response['file']
 st.write(output)
