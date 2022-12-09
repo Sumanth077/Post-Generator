@@ -19,7 +19,7 @@ st.text("")
 def refresh_state():
 	st.session_state['status'] = 'submitted'
 
-url = st.text_input('Place the Link of your Video here and see the magic 🪄',value='https://www.youtube.com/watch?v=Nu0WXRXUfAk',on_change=refresh_state)
+url = st.text_input('Place the Link of your Video here and see the magic 🪄',value='https://youtu.be/n8NgvECmq-M',on_change=refresh_state)
 st.text("")
 st.button('Generate')
 
