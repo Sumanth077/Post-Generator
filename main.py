@@ -3,8 +3,9 @@ import time
 from steamship import Steamship
 from steamship.base import TaskState
 
+api_key="35739754-99DE-4585-86E4-DD10706414F3"
 
-instance = Steamship.use(package_handle = "audio-description", instance_handle="new-instance")
+instance = Steamship(st.secrets["apikey"]).use(package_handle = "audio-description", instance_handle="new-instance")
 
 st.title('Post Generator ❤️')
 st.text("")
