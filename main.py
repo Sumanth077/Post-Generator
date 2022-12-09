@@ -7,7 +7,7 @@ api_key="35739754-99DE-4585-86E4-DD10706414F3"
 
 instance = Steamship(st.secrets["apikey"]).use(package_handle = "audio-description", instance_handle="new-instance")
 
-st.title('Post Generator ❤️')
+st.title(' Post Generator 👨‍💻')
 st.text("")
 st.header('Are you a Content Creator and want to generate Social Media Posts \
           Describing your New Video ? 🎥 '
